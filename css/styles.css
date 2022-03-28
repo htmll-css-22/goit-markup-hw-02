@@ -1,0 +1,235 @@
+
+:root {
+  /* Основные шрифты */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-cl: ;
+
+  /* Светлая тема текста */
+  --primary-txt--mode-light: 
+  --secondary-txt--mode-light: 
+  --main-txt--mode-light:
+
+  /* Темная тема текста*/
+  --primary-txt--mode-dark:
+  --secondary-txt--mode-dark: 
+  --main-txt--mode-dark: color:
+
+  /* Светлая тема фона*/
+  --primary-bg--mode-light: 
+  --secondary-bg--mode-light: 
+
+  /* Темная тема фона*/
+  --primary-bg--mode-dark: 
+  --secondary-bg--mode-dark: 
+}
+
+/* Common styles */
+body {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #212121;
+ 
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+
+.title {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+
+/* Header */
+.header {
+  background-color: var(--primary-bg--mode-dark);
+}
+.nav-link,
+.header-mail,
+.header-phone {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196F3;
+}
+
+.header-phone {
+  text-transform: uppercase;
+}
+.header-phone:hover,
+.header-phone:focus {
+  color: var(--accent-cl);
+}
+
+/* Hero */
+.hero-title,
+.hero-btn {
+  
+  
+}
+
+.hero-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+background-color: #2F303A;
+}
+
+.hero-btn {
+text-align: center;
+  color: #FFFFFF;
+  background-color: #2196F3
+}
+
+.hero-btn:hover,
+.hero-btn:focus 
+{
+
+background-color: #2196F3,
+}
+.section-title {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+background-color: #E5E5E5;
+}
+  
+.subtitle {
+  font-family: Roboto;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: #757575;
+  
+.subtitle-mode-dark {
+  color: var(--main-txt--mode-dark);
+
+}
+
+.section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #212121;
+
+}
+
+/* About us */
+.about-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #212121;
+
+}
+
+/* Team */
+.team {
+  
+}
+
+.team-headline {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.team-position {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+ 
+}
+
+/* Contacts */
+.footer
+{
+  background-color: #2F303A;
+}
+.logo,
+.contacts-adress,
+.contacts-item,
+.contacts-link
+{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+text-transform: uppercase;
+background-color: #2F303A;
+color: var(--accent-cl)
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196F3;
+}
+
